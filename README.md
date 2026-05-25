@@ -1,7 +1,7 @@
 # Information_Aggregator_with_Web_API_and_Scraping
 
 ## Authors
-Group 2:
+Group G5:
 - Module A [Yan Hao] (25976440) 
 - Module B [Student B Name] (Student B ID) 
 - Module C [Student C Name] (Student C ID) 
