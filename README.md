@@ -2,12 +2,18 @@
 
 ## Authors
 Group G5:
-- Module A [Yan Hao] (25976440) 
-- Module B [Student B Name] (Student B ID) 
-- Module C [Student C Name] (Student C ID) 
-- Module D [Student D Name] (Student D ID)
+- Module A [Yan Hao] 
+- Module B [Student B Name] 
+- Module C [Student C Name] 
+- Module D [Student D Name] 
 
 ## Description
+Develop a Python program that aggregates news articles from different sources using both web APIs
+and web scraping techniques. This assignment will cover skills related to making API requests,
+handling JSON/XML data, and extracting information from HTML. It provides students with hands-on
+experience in integrating data from both web APIs and web scraping, offering a practical
+understanding of data aggregation from multiple sources.
+
 
 ## Project Structure
 ```
