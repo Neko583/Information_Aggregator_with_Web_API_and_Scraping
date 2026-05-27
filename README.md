@@ -4,7 +4,7 @@
 Group G5:
 - Module A [Yan Hao] 
 - Module B [Yuxiang Wang] 
-- Module C [Student C Name] 
+- Module C [Yanzhen Huang] 
 - Module D [Student D Name] 
 
 ## Description
