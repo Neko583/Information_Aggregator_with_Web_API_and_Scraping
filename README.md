@@ -3,7 +3,7 @@
 ## Authors
 Group G5:
 - Module A [Yan Hao] 
-- Module B [Student B Name] 
+- Module B [Yuxiang Wang] 
 - Module C [Student C Name] 
 - Module D [Student D Name] 
 
