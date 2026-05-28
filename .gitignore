@@ -225,3 +225,6 @@ __marimo__/
 
 # .DS_Store
 .DS_Store
+
+# Local Matplotlib cache created when running tests without a user cache dir
+.matplotlib-cache/

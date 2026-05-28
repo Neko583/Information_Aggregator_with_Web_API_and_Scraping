@@ -4,7 +4,7 @@
 Group G5:
 - Module A [Yan Hao] 
 - Module B [Yuxiang Wang] 
-- Module C [Student C Name] 
+- Module C [Yanzhen Huang] 
 - Module D [Student D Name] 
 
 ## Description
@@ -94,5 +94,23 @@ for article in articles:
 ## Module B
 
 ## Module C
+
+### Features
+- Tkinter desktop GUI for browsing aggregated news articles.
+- Category dropdown and article limit input for user-controlled fetching.
+- Article list panel plus detail view showing title, source, author, date, URL, description, and content.
+- Matplotlib charts for article distribution by source and by category.
+- Testable presentation and chart helper classes so GUI-related logic can be checked without opening a window.
+
+### Run the GUI
+From the project root directory:
+```bash
+python -m gui.gui
+```
+
+### Run Module C Tests
+```bash
+python -m unittest tests.test_gui
+```
 
 ## Module D
