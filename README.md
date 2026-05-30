@@ -5,7 +5,7 @@ Group G5:
 - Module A [Yan Hao] 
 - Module B [Yuxiang Wang] 
 - Module C [Yanzhen Huang] 
-- Module D [Student D Name] 
+- Module D [Wenze Qiao] 
 
 ## Description
 Develop a Python program that aggregates news articles from different sources using both web APIs
@@ -114,3 +114,12 @@ python -m unittest tests.test_gui
 ```
 
 ## Module D
+### Features
+- Developed `main.py`, connects API, data processing, web scraping, visualization, and GUI.
+- Implemented full news processing pipeline, search function, and chart generation.
+- Wrote `test_integration.py` to validate system stability and inter-module cooperation.
+### Run Integration Tests
+```bash
+python -m unittest tests/test_integration.py -v
+```
+Expected result: **4 passed**
