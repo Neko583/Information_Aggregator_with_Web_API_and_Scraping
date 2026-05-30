@@ -92,7 +92,34 @@ for article in articles:
 
 
 ## Module B
+### Features
+- Web scraping of article pages with `requests` + BeautifulSoup to recover fields the API does not return (content, author, publish date).
+- Robust extraction order: OpenGraph tags, then standard `<meta>` tags, then `<title>`/`<h1>`/`<time>`/`<article>` fallbacks.
+- Graceful error handling: a failed page returns a `ScrapedArticle` with an `error` field instead of crashing the pipeline.
+- Data cleaning: collapse whitespace, convert empty values to `None`, and flatten the API `source` object into a plain name.
+- Remove duplicates by URL first, then by normalised title, keeping the richest record.
+- Merge API responses with scraped data into one consistent dataset; output is always a plain `dict` for the GUI and integration code.
 
+### Quick Scraping Test
+Run the script below to verify functions:
+```python
+from scraper.scraper import NewsScraper
+from processor.data_processor import DataProcessor
+
+scraper = NewsScraper()
+article = scraper.scrape_article("https://example.com/some-news-story")
+print(article.to_dict())
+
+processor = DataProcessor()
+combined = processor.merge_with_scraped(api_results, scraped_results)
+```
+
+### Run Module B Tests
+From the project root directory:
+```bash
+python -m unittest tests.test_scraper tests.test_data_processor -v
+```
+Expected result: **16 passed**
 ## Module C
 
 ### Features
